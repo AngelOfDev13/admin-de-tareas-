@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formularios</h1>
+    <form >
+        <div>
+            <label for="username">usuario:</label>
+            <input minlength="4" maxlength="10" required type="text" name="username" id="input-username" placeholder="nombre de usuario">
+        </div>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" required name="email" id="input-email" placeholder="email" autocomplete="">
+        </div>
+        <div>
+            <label for="password">password:</label>
+            <input pattern="[a-z0-9]{6,10}" title="solo se aceptan numeros, minimo 6 y maximo 10" type="password" required name="password" id="input-password" placeholder="password">
+        </div>
+        <div>
+            <label for="comentarios">comentarios:</label>
+            <textarea placeholder="comentarios" name="direccion" id="" cols="18" rows="14"></textarea>
+        </div>
+        <button type="submit">crear cuenta</button>
+        
+    </form>
+    <!-- tablas -->
+    <table>
+        <th>sueldo</th>
+        <tbody>
+            <tr>
+                <td>dolares</td>
+                <td>bolivares</td>
+                <td>euros</td>
+            </tr>
+            <tr>
+                <td>100$</td>
+                <td>100bs</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- navegacion -->
+    <nav>
+        <a href="index.html"></a>
+    </nav>
+    <script src="js/condicionalesbucles.js"></script>
+</body>
+</html>
